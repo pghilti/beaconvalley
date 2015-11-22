@@ -34,6 +34,7 @@
                             <ul class="nav navbar-nav navbar-right" id="ul_nawigacja">
                                 <li class="active"><a href="#start">Start</a></li>
                                 <li><a href="#game">About game</a></li>
+                                <li><a href="#startscreen">Start screen</a></li>
                                 <li><a href="#map">Map</a></li>
                                 <li><a href="#send">Send</a></li>
 
@@ -78,19 +79,19 @@
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onas_naglowek">       
                     <h2>Tell us something about you and your game</h2>
                 </div>
-            </div>
+            </div><br><br>
             <div class="row">
                 <!-- formularz podstawowy -->
                 <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="thumbnail formularzyk">
-                        <h3>Basic info</h3>
+                        <h3>Basic info</h3><br>
                         <form action="#" method="post">
                         <div class="form-group">
-                            <label for="user" class="control-label">Your name:</label>
+                            <label for="user" class="control-label">Author:</label>
                             <input type="text" class="form-control" name="user" placeholder="e.g. John">
                         </div>
                         <div class="form-group">
-                            <label for="gname" class="control-label">Your game's name:</label>
+                            <label for="gname" class="control-label">Game title:</label>
                             <input type="text" class="form-control" name="gname" placeholder="e.g. Jumanji">
                         </div>
                         
@@ -99,17 +100,11 @@
                                 <div class="radio">
                                 <label><input type="radio" name="optradio">linear   <img class="gtype" src="images/line.png"></label>
                                 </div>
+                                <br>
                                 <div class="radio">
                                 <label><input type="radio" name="optradio">random   <img class="gtype" src="images/random.png"></label>
                                 </div>
                             </form>
-                        
-                        <!-- <label for="gtype" class="control-label">Game type:</label><br>
-                        <select>
-                            <option>linear</option>
-                            <option>random</option>
-                        </select> -->
-
                     </form>
                     </div>
                     </div>
@@ -117,44 +112,49 @@
                 <!-- formularz description -->
                 <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="thumbnail formularzyk">
-                        <h3>Description</h3>
+                        <h3>Description & icon</h3><br>
                          <form action="#" method="post">
                             <div class="form-group">
                             <label for="description" class="control-label">Write down a description for your game</label>
                             <textarea class="form-control" name="uwagi" rows="8" ></textarea>
+                            <br>
+                            <div class="uploadFile">
+                            <label for="file" class="control-label">Choose representative image for your game</label>
+                            <input type="file" class="btn btn-default btn-lg rozstrzelone" name="gTitle">
+                            </div>
                             </div>
                          </form>
                     </div>
                 </div>
             </div>
     </section> 
+    <br><br><br><br>
+    <div id="startscreen">
+    <br><br><br><br>
+    
             <div class="container">
-                <div class="row">
-                            <div class="col-sm-12 col-md-12 col-lg-12">
+                
+                            <div class="col-sm-4 col-md-4 col-lg formularzyk1">
                                 <div class="thumbnail formularzyk1">
                                     <h3>Design start screen</h3>
+                                    <br>
                                      <form action="#" method="post">
-                                        <div class="form-group col-sm-6 col-md-6 col-lg-6">
+                                        <div class="form-group">
                                         <label for="gTitle" class="control-label">Choose text which will apear at the beginning</label>
-                                        <textarea class="form-control" name="gTitle" rows="4"></textarea>
+                                        <textarea class="form-control" name="gTitle" rows="16"></textarea>
                                         </div>
-                                        <div class="form-group col-sm-6 col-md-6 col-lg-6">
-                                        <label for="file" class="control-label">Choose representative image for your game</label>
-                                        <input type="file" class="form-control" name="gTitle">
-                                        </div>
+
                                      </form>
                                 </div>
                             </div>
-                </div>
+                
             </div>
-    <section id="map">
+        </div>
+        <br>
+    
         <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 onas_naglowek">       
-                    <h2>Add unique elements</h2>
-                </div>
-            </div>
-                <div class="col-sm-12 col-md-12 col-lg-12">
+                <section id="map">
+                <div class="col-sm-6 col-md-6 col-lg-6">
                     <div class="thumbnail">
                         <h3>Take a look on a map</h3>
                         <p>Choose beacons which you would like use in your urban game</p>
@@ -163,14 +163,69 @@
                     </div>
                 </div> 
 
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                     <div class="thumbnail">
+                         <h3>Add beacons</h3>
+                         <div class="smartphone">
+                         <div class="btn-group">
+                          <button type="button" class="btn btn-default dropdown-toggle dodawanieakcji" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Add component<span class="caret"></span>
+                          </button>
+                          <ul class="dropdown-menu">
+                            <li><a href="#map1">Message</a></li>
+                            <li><a href="#">Photo</a></li>
+                            <li><a href="#">Video</a></li>
+                            <li><a href="#">Audio</a></li>
+                          </ul> 
+                        </div>
+                         </div>
+                     </div>
+                 </div>
+
+                 </section><br><br>
+        </div> 
+
+
+<br><br><br><br><br><br><br><br><br><section id="map1"><br><br><br><br><br>
+<hr style="height: 11px; visibility: hidden;"/>
+        <div class="container">
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="thumbnail">
+                        <h3>Take a look on a map</h3>
+                        <p>Choose beacons which you would like use in your urban game</p>
+                        <iframe src="https://mapsengine.google.com/map/embed?mid=zS1GAW8-AggU.kI0rnL2PCOm0" width="640" height="480"></iframe></iframe>
+
+                    </div>
+                </div> 
+
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                     <div class="thumbnail">
+                         <h3>Add beacons</h3>
+                         <div class="smartphone">
+                         <textarea class="form-control feature1" name="gTitle" rows="3"></textarea>
+                         <div class="btn-group">
+                          <button type="button" class="btn btn-default dropdown-toggle dodawanieakcji" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Add component<span class="caret"></span>
+                          </button>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Message</a></li>
+                            <li><a href="#">Photo</a></li>
+                            <li><a href="#">Video</a></li>
+                            <li><a href="#">Audio</a></li>
+                          </ul> 
+                        </div>
+                         </div>
+                     </div>
+                 </div>
+
                
         </div> 
     </section>
-
      
     <!--###############################-->
     <!--submit #######################-->
     <!--###############################-->
+   <br><br><br><br><br><br><br> <br><br>
    <hr>
     <section id="send">
         <div class="container">
@@ -192,7 +247,7 @@
         </div>
         </div>
     </section>
-
+<br><br><br><br><br>
     <!-- js -->
     <script src="//maps.google.com/maps/api/js?sensor=false&amp;language=pl"></script>
     <script src="js/jquery-2.0.3.min.js"></script>
