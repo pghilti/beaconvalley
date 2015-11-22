@@ -15,9 +15,6 @@ p{
 	color: black;
 }
 
-select, option{
-	color: black;
-}
 
 .btn-success{
 	background-color: #1abc9c;
@@ -41,6 +38,10 @@ select, option{
 	height: 325px;
 }
 
+.formularzyk1{
+	height: 250px;
+}
+
 .smartphone{
 	width: 245px;
 	height: 495px;
@@ -55,7 +56,7 @@ select, option{
 
 iframe {
     width: 500px;
-    height: 490px;
+    height: 430px;
 }
 
 
@@ -202,16 +203,37 @@ a:hover{
 	margin: auto 0;	
 }
 
-/*#####################################################################################################################*/
-/* Stopka */
-/*#####################################################################################################################*/
-#stopka{
-	padding-top: 1rem;
-	padding-bottom: 1rem;
-	background-color: #000000;
-	color: #ffffff;	
+.success{
+	margin-top: 0;
 }
 
-#stopka h4{
-	color: #ffffff;		
+.baloniki{
+	height: 10%;
+	width: 10%;
+}
+
+.mobile {
+background: url('http://apk-dl.com/detail/screenshot/xkoocRsWaNz7u4M8W7yIazwqJUkOWyZTFLjJ3DI8T87iK2QU24Ya9hBUiUdXu6K5jNQ=h500.png') no-repeat;
+color: #fff;
+padding:70px 0 0 10px;
+overflow: auto;
+max-width: 200px;
+min-width: 200px;
+max-height: 400px;
+min-height: 400px;
+font-family: Helvetica;
+font-size: 15px;
+text-align: center;
+margin-left: 30%;
+margin-right: 20%;
+}
+
+.mobile1{
+	height: 550px;
+	text-align: center;
+}
+
+.mobileForm{
+	width: 170px;
+	background-color: black;
 }
