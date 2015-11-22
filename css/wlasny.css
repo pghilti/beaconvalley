@@ -1,0 +1,217 @@
+/*#####################################################################################################################*/
+/* ------------------------------------------- Własny CSS -------------------------------------------------------------*/ 
+/*#####################################################################################################################*/
+
+/*#####################################################################################################################*/
+/* Główne*/
+/*#####################################################################################################################*/
+
+body{
+	background-color: #ffffff;
+	text-align: center;
+	color: #ffffff;
+}
+p{
+	color: black;
+}
+
+select, option{
+	color: black;
+}
+
+.btn-success{
+	background-color: #1abc9c;
+	border-color: #1abc9c;
+	margin-top: 4rem;
+}
+
+.btn-success:hover{
+	background-color: #48c9b0;
+	border-color: #48c9b0;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+
+.formularzyk{
+	height: 325px;
+}
+
+.smartphone{
+	width: 245px;
+	height: 495px;
+	background-image: url('images/smartphone.png');
+	background-repeat: no-repeat;
+}
+
+.gtype{
+	width: 30%;
+	height: 10%;
+}
+
+iframe {
+    width: 500px;
+    height: 490px;
+}
+
+
+/*#####################################################################################################################*/
+/* Typografia */
+/*#####################################################################################################################*/
+
+h1,h2,h3,h4,h5,h6{
+	color: #5c6166;
+	font-weight: 300;
+}
+
+h1{
+	font-size:  6rem;
+}
+
+h2{
+	font-size:  4rem;
+	line-height: 6rem;
+}
+
+h3{
+	font-size:  2.5rem;
+	line-height: 3rem;
+}
+
+h4{
+	font-size:  2rem;
+	line-height: 3rem;
+  	color:#a4abb3;	
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.glyphicon{
+	color: #6dbcdb;
+}
+
+/*#####################################################################################################################*/
+/* navbar*/
+/*#####################################################################################################################*/
+#menu{
+	background-color: #009688;
+}
+
+.navbar{
+	background-color: #009688;
+	font-size: 1.7rem;
+	color: #ffffff;
+	padding-top: 3rem;
+	border-color: #009688;
+}
+
+.navbar-outer{
+	width: 1200px;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color: #ffffff;
+	margin-left: 5px;
+	border: 1px solid transparent;
+	line-height: 1rem;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+	display: block;
+	color: #673ab7;
+	border: 1px solid transparent;
+	border-color: #673ab7;
+	line-height: 1rem;
+	border-radius: 4px;
+	transition: all 0.7s ease;
+}
+
+.navbar-inverse .navbar-nav > .active > a{
+	display: block;
+	border-color: #ffffff;
+	background-color: #009688;
+	border-radius: 4px;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover{
+	color: #673ab7;
+	background-color: #009688;
+}
+
+
+#logo img{
+	display: block;
+	float:  none;
+	margin-top: -1rem;
+}
+
+
+/*#####################################################################################################################*/
+/* Welcome*/
+/*#####################################################################################################################*/
+.welcome{
+	padding-top: 10%;
+}
+.welcome1{
+	display: inline-block;
+	margin: auto 0;
+	margin-bottom: 20rem;
+	margin-top: 10rem;
+}
+.guziki{
+	width: 20%;
+	margin-bottom: 5%;
+}
+
+#game, #map{
+	padding-top: 10rem;
+	padding-bottom: 3rem;
+	text-align: center;
+}
+
+.thumbnail{
+	background-color: #1abc9c;
+	border-radius: 6px;
+	padding: 2rem;
+}
+
+.thumbnail h3{
+	color: #ffffff;
+}
+
+.thumbnail p{
+	font-size: 1.5rem;
+	color: #ffffff;
+}
+
+
+
+/*#####################################################################################################################*/
+/* Submit */
+/*#####################################################################################################################*/
+#send{
+	padding-top: 15rem;
+	padding-bottom: 15rem;
+	text-align: center;
+	margin: auto 0;	
+}
+
+/*#####################################################################################################################*/
+/* Stopka */
+/*#####################################################################################################################*/
+#stopka{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: #000000;
+	color: #ffffff;	
+}
+
+#stopka h4{
+	color: #ffffff;		
+}
