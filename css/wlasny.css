@@ -55,7 +55,7 @@ p{
 }
 
 iframe {
-    width: 500px;
+    width: 97%;
     height: 430px;
 }
 
@@ -211,9 +211,9 @@ a:hover{
 	height: 10%;
 	width: 10%;
 }
-
+/*
 .mobile {
-background: url('http://apk-dl.com/detail/screenshot/xkoocRsWaNz7u4M8W7yIazwqJUkOWyZTFLjJ3DI8T87iK2QU24Ya9hBUiUdXu6K5jNQ=h500.png') no-repeat;
+background: url('http://4.bp.blogspot.com/-hnIDc7mSjwg/U2tY2HjkziI/AAAAAAAACfc/qWygMCyWnm0/iphone.png') no-repeat;
 color: #fff;
 padding:70px 0 0 10px;
 overflow: auto;
@@ -224,7 +224,7 @@ min-height: 400px;
 font-family: Helvetica;
 font-size: 15px;
 text-align: center;
-margin-left: 30%;
+margin-left: 20%;
 margin-right: 20%;
 }
 
@@ -236,4 +236,4 @@ margin-right: 20%;
 .mobileForm{
 	width: 170px;
 	background-color: black;
-}
+} */
